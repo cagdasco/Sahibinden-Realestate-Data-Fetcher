@@ -33,7 +33,7 @@ real_estate.csv file contains the data of the real estate.
 
     `python clear_csv.py`
 
-### CSV ATTIRIBUTE INFORMATION
+### CSV Attiribute Information
 
     1. TITLE      title of the ad
     2. ID         identification number of the ad
