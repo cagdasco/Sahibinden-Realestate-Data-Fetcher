@@ -9,7 +9,7 @@ real_estate.csv file contains the data of the real estate.
 ### USAGE:
 `python fetcher.py`
 
-NOTE: There is a little bug in the script, sometimes fetcher.py ads the duplicate of the same row.I have created clear_csv.py script to delete the duplicates from .csv file.
+**NOTE:** There is a little bug in the script, sometimes fetcher.py ads the duplicate of the same row.I have created clear_csv.py script to delete the duplicates from .csv file.
 
 ### Instructions
 
@@ -25,7 +25,7 @@ NOTE: There is a little bug in the script, sometimes fetcher.py ads the duplicat
 
     `pip install -r requirements.txt`
 
-3. Run the script with parameters
+3. Run the script
 
     `python fetcher.py`
 
