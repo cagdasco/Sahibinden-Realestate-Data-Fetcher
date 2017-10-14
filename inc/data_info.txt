@@ -1,0 +1,47 @@
+1. Title: Sahibinden.com Turkey Flat House Data
+
+2. Sources:
+   (a) Origin:  This dataset was taken from the Sahibinden.com which is an online classifieds and shopping platform in which people and businesses buy and sell real estate
+   (b) Creator:  Tokman, B.T. ‘Predicting house price with specific values'
+   (c) Date: August 14, 2017
+
+3. Relevant Information:
+
+   Concerns housing values increment in Turkey.
+
+5. Number of Instances: UNKNOWN
+
+6. Number of Attributes: 25 continuous attributes
+
+7. Attribute Information:
+
+    1. TITLE      title of the ad
+    2. ID         identification number of the ad
+    3. PRICE      price of the flat
+    4. CURRENCY   currency of the price    
+    5. LOCCITY    city of the building
+    6. LOCOUNTY   county of the building
+    7. LOCDIST    distirct of the building
+    8. LAT        latitude of the location of the building
+    9. LON        longitude of the location of the building
+    10. DATE      ad release date
+    11. TYPE      type of the ad
+    12. M2        size of the flat in meters
+    13. ROOMS     Rooms in flat
+    14. AGE       age of the building
+    15. FLOOR     floor number of the flat
+    16. TFLOOR    number of floors in building
+    17. HEAT      heating type of the building
+    18. BATH      number of bathrooms in the building
+    19. FURN      flat is furnitured or not
+    20. STATUS    occupied by owner, lessee or empty
+    21. RESID     building is in residence or not
+    22. DUE       monthly dues of the building
+    23. LOAN      flat is available for loan or not
+    24. SALER     saler of the flat is owner, real estate office or construction company
+    25. EXC       exchange is possible or not
+
+8. Missing Attribute Values:  None.
+
+
+
