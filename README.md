@@ -1,4 +1,12 @@
-# Sahibinden.com Real Estate Data Fetcher
+# Sahibinden.com Real Estate Data Fetcher [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/sirdavalos/Sahibinden-Realestate-Data-Fetcher/)
+
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/sirdavalos/Sahibinden-Realestate-Data-Fetcher)
+[![Repo](https://img.shields.io/badge/source-GitHub-303030.svg?maxAge=3600&style=flat-square)](https://github.com/sirdavalos/Sahibinden-Realestate-Data-Fetcher)
+[![Requires.io](https://img.shields.io/requires/github/celery/celery.svg)](https://requires.io/github/sirdavalos/9GAG-Media-Downloader/requirements/?branch=master)
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://github.com/sirdavalos/Sahibinden-Realestate-Data-Fetcher)
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://choosealicense.com/licenses/mit/)
+[![Donate with Bitcoin](https://img.shields.io/badge/Donate-BTC-orange.svg)](https://blockchain.info/address/17dXgYr48j31myKiAhnM5cQx78XBNyeBWM)
+[![Donate with Ethereum](https://img.shields.io/badge/Donate-ETH-blue.svg)](https://etherscan.io/address/91dd20538de3b48493dfda212217036257ae5150)
 
 Python script that grabs the data of the advertised real estate from sahibinden.com and writes it to inc/real_estate_data.csv file.
 
@@ -7,11 +15,13 @@ id_url.csv file contains the id of the advertisement and the url of it.
 real_estate.csv file contains the data of the real estate. 
 
 ### USAGE:
+------
 `python fetcher.py`
 
 **NOTE:** There is a little bug in the script, sometimes fetcher.py ads the duplicate of the same row.I have created clear_csv.py script to delete the duplicates from .csv file.
 
 ### Instructions
+------
 
 0. Fork, clone or download this repository
 
@@ -34,6 +44,7 @@ real_estate.csv file contains the data of the real estate.
     `python clear_csv.py`
 
 ### CSV Attiribute Information
+------
 
     1. TITLE      title of the ad
     2. ID         identification number of the ad
@@ -62,5 +73,6 @@ real_estate.csv file contains the data of the real estate.
     25. EXC       exchange is possible or not
 
 ### LICENSE
+------
 
 MIT License
